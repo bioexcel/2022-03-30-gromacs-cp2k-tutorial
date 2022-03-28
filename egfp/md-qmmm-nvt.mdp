@@ -29,8 +29,8 @@ tau-t                    = 0.1
 ref-t                    = 300
 
 ; CP2K QMMM parameters
-qmmm-active              = true   ; Activate QMMM MdModule
-qmmm-qmgroup             = QMatoms; Index group of QM atoms
-qmmm-qmmethod            = PBE    ; Method to use
-qmmm-qmcharge            = -1     ; Charge of QM system
-qmmm-qmmultiplicity      = 1      ; Multiplicity of QM system
+qmmm-cp2k-active              = true   ; Activate QMMM MdModule
+qmmm-cp2k-qmgroup             = QMatoms; Index group of QM atoms
+qmmm-cp2k-qmmethod            = PBE    ; Method to use
+qmmm-cp2k-qmcharge            = -1     ; Charge of QM system
+qmmm-cp2k-qmmultiplicity      = 1      ; Multiplicity of QM system

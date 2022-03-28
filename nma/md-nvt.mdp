@@ -27,8 +27,8 @@ gen-temp                 = 300
 gen-seed                 = -1
 
 ; CP2K QMMM parameters
-qmmm-active              = true   ; Activate QMMM MdModule
-qmmm-qmgroup             = System ; Index group of QM atoms
-qmmm-qmmethod            = PBE    ; Method to use
-qmmm-qmcharge            = 0      ; Charge of QM system
-qmmm-qmmultiplicity      = 1      ; Multiplicity of QM system
+qmmm-cp2k-active              = true   ; Activate QMMM MdModule
+qmmm-cp2k-qmgroup             = System ; Index group of QM atoms
+qmmm-cp2k-qmmethod            = PBE    ; Method to use
+qmmm-cp2k-qmcharge            = 0      ; Charge of QM system
+qmmm-cp2k-qmmultiplicity      = 1      ; Multiplicity of QM system

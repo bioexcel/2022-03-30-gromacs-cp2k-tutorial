@@ -29,7 +29,6 @@ tau-t                    = 0.1
 ref-t                    = 300
 
 ; CP2K QMMM parameters
-qmmm-active              = true   ; Activate QMMM MdModule
-qmmm-qmgroup             = QMatoms; Index group of QM atoms
-qmmm-qmmethod            = INPUT  ; Method to use
-qmmm-qminputfile         = egfp-qmmm-spec.inp ; external input file
+qmmm-cp2k-active              = true   ; Activate QMMM MdModule
+qmmm-cp2k-qmgroup             = QMatoms; Index group of QM atoms
+qmmm-cp2k-qmmethod            = INPUT  ; Method to use

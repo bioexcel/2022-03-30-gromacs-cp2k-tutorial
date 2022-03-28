@@ -55,8 +55,8 @@ pull-nstfout             = 1
 
 ; CP2K QMMM parameters
 
-qmmm-active              = true
-qmmm-qmgroup             = QMatoms
-qmmm-qmmethod            = PBE
-qmmm-qmcharge            = 0
-qmmm-qmmultiplicity      = 1
+qmmm-cp2k-active              = true
+qmmm-cp2k-qmgroup             = QMatoms
+qmmm-cp2k-qmmethod            = PBE
+qmmm-cp2k-qmcharge            = 0
+qmmm-cp2k-qmmultiplicity      = 1

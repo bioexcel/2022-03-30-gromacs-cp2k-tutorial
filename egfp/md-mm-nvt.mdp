@@ -34,4 +34,4 @@ gen-temp                 = 300
 gen-seed                 = -1
 
 ; CP2K QMMM parameters
-qmmm-active              = false   ; This is MM equilibration!
+qmmm-cp2k-active              = false   ; This is MM equilibration!
