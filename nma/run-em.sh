@@ -2,7 +2,7 @@
 #SBATCH -J nma-em
 #SBATCH --time=00:20:00
 #SBATCH --partition=standard
-#SBATCH --qos=standard
+#SBATCH --qos=reservation
 #SBATCH --account=ta060
 #SBATCH --reservation=ta060_170
 #SBATCH --nodes=1
