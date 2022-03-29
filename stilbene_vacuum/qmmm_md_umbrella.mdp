@@ -2,12 +2,12 @@
 integrator  = md
 dt          = 0.001
 tinit       = 0
-nsteps      = 10000    ; 10 ps
+nsteps      = 100    ; 100 fs
 nstcomm     = 1
 ; Output parameters
-nstxout     = 1000      ; every 1 ps
-nstvout     = 1000
-nstfout     = 1000
+nstxout     = 100      ; every 100 fs
+nstvout     = 100
+nstfout     = 100
 nstlog      = 1
 nstxtcout   = 1       ; every 1 fs
 nstenergy   = 1
@@ -26,7 +26,7 @@ pbc             = xyz          ; With periodic boundary conditions
 tcoupl                   = v-rescale ;Temperature coupling options
 nsttcouple               = 1
 tc-grps                  = System
-tau-t                    = 0.5
+tau-t                    = 0.1
 ref-t                    = 300
 
 
